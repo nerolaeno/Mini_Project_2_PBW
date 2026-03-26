@@ -1,3 +1,8 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #fbf4ef, #ffe7f3)!important;
+}
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Playfair+Display:wght@500&display=swap');
 
 * {
@@ -8,8 +13,8 @@
 
 body {
     font-family: 'Playfair Display', serif;
-    background: #fff1ca;
-    color: #ffc0e5;
+    background: #fbf4ef;
+    color: #41353c;
     line-height: 1.6;
 }
 
@@ -191,3 +196,19 @@ body {
     background-color: #ffeef4;
     font-family: 'Playfair Display', serif;
 }
+.about-paragraph {
+    color: #000000;
+    line-height: 1.8;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+
+.about-paragraph:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
